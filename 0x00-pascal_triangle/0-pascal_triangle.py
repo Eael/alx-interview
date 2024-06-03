@@ -9,7 +9,7 @@ def pascal_triangle(n):
     '''
     triangle = []
     try:
-        assert n > 0
+        assert n >= 0
         for i in range(n):
             line = []
             for j in range(i + 1):
