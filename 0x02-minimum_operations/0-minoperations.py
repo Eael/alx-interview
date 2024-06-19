@@ -21,16 +21,15 @@ def minOperations(n):
             copied = done
             done += copied
             ops += 2
-           # print('-(11)->{}'.format('H' * done), end='')
+            # print('-(11)->{}'.format('H' * done), end='')
         elif n - done > 0 and (n - done) % done == 0:
             copied = done
             done += copied
             ops += 2
-           # print('-(11)->{}'.format('H' * done), end='')
+            # print('-(11)->{}'.format('H' * done), end='')
         elif copied > 0:
             done += copied
             ops += 1
-           # print('-(11)->{}'.format('H' * done), end='')
-    #print ('')
+            # print('-(11)->{}'.format('H' * done), end='')
+    # print ('')
     return ops
-
