@@ -15,8 +15,8 @@ if (process.argv.length > 2) {
             reject(promiseErr);
           }
           resolve(JSON.parse(charReqBody).name);
-          });
-        }));
+        });
+      }));
 
     Promise.all(charName)
       .then(names => console.log(names.join('\n')))
