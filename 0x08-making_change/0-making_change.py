@@ -3,7 +3,7 @@
 """
 
 
-def makeChange(coin, total):
+def makeChange(coins, total):
     """function to find the minimal amount of change needed to meet the total
         @params: Coin (given coin), Total (amount needed)
         return: Fewest amount to meet total
